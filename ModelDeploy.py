@@ -6,7 +6,7 @@ from PIL import Image
 import pickle
 
 #loading in the model to predict 
-pickle_in = open('Student_Classifier.pkl', 'rb')
+pickle_in = open('./Student_Classifier.pkl', 'rb')
 student_classifier = pickle.load(pickle_in)
 
 
