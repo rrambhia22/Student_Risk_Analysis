@@ -4,7 +4,6 @@
 import streamlit as st
 from PIL import Image
 import pickle
-import sklearn
 
 #loading in the model to predict 
 pickle_in = open('./Student_Classifier.pkl', 'rb')
