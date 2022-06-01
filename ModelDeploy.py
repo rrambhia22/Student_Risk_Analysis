@@ -1,6 +1,6 @@
 #deploying the model for testing
 
-from sklearn.preprocessing import LabelEncoder
+#from sklearn.preprocessing import LabelEncoder
 import streamlit as st
 from PIL import Image
 import pickle
